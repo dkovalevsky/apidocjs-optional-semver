@@ -638,6 +638,8 @@ require([
         endpointsList.search();
     });
 
+    $('#versions li.version a').first().click();
+
     /**
      * Change version of an article to compare it to an other version.
      */
